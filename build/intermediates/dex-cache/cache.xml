@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\Henry\AndroidstudioProjects\TicTacToe4-new\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-a20ce8866e1442faeb69f13c51ac7511bee440d0.jar"
+        jar="C:\Users\Henry\AndroidstudioProjects\TicTacToe4-new\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
+        dex="C:\Users\Henry\AndroidstudioProjects\TicTacToe4-new\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-a7379cc2c0edee1c78971e679c002daa2898b577.jar"
+        jar="D:\Program Files (x86)\android-studio\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+    <item
+        dex="C:\Users\Henry\AndroidstudioProjects\TicTacToe4-new\app\build\intermediates\pre-dexed\debug\classes-de94d12533769a2364c14c63f41b6b962654957a.jar"
+        jar="C:\Users\Henry\AndroidstudioProjects\TicTacToe4-new\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+    <item
+        dex="C:\Users\Henry\AndroidstudioProjects\TicTacToe4-new\app\build\intermediates\pre-dexed\debug\classes-b707808123624c0cea1232d1128820da59f3fd66.jar"
+        jar="C:\Users\Henry\AndroidstudioProjects\TicTacToe4-new\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\5.2.08\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1ed7a7a05185651f9af41ad93711cb96b66f331c"/>
+
+</pre-dex-items>
