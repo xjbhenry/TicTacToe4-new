@@ -9,12 +9,7 @@ package com.wiley.fordummies.androidsdk.tictactoe;
 
 public final class R {
     public static final class attr {
-        /** 
-    The size of the ad. It must be one of BANNER, FULL_BANNER, LEADERBOARD,
-    MEDIUM_RECTANGLE, SMART_BANNER, WIDE_SKYSCRAPER, or
-    &lt;width&gt;x&lt;height&gt;.
-        
-         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
@@ -22,12 +17,7 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int adSize=0x7f010000;
-        /** 
-    A comma-separated list of the supported ad sizes. The sizes must be one of
-    BANNER, FULL_BANNER, LEADERBOARD, MEDIUM_RECTANGLE, SMART_BANNER,
-    WIDE_SKYSCRAPER, or &lt;width&gt;x&lt;height&gt;.
-        
-         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
@@ -35,8 +25,7 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int adSizes=0x7f010001;
-        /**  The ad unit ID. 
-         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
@@ -44,8 +33,18 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int adUnitId=0x7f010002;
-        /**  Appearance of the buy button. Must be one of "classic", "grayscale" and "monochrome" 
-         <p>Must be one of the following constant values.</p>
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>holo_dark</code></td><td>0</td><td></td></tr>
+<tr><td><code>holo_light</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int appTheme=0x7f010011;
+        /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
 <colgroup align="left" />
@@ -57,12 +56,7 @@ containing a value of this type.
 </table>
          */
         public static final int buyButtonAppearance=0x7f010018;
-        /** 
-             Height of the buy button. This includes an 8dp padding (4dp on each side) used for
-             pressed and focused states of the button. The value can be a specific height, e.g.
-             "48dp", or special values "match_parent" and "wrap_content".
-        
-         <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
@@ -81,8 +75,7 @@ containing a value of this type.
 </table>
          */
         public static final int buyButtonHeight=0x7f010015;
-        /**  Text on the buy button. Must be one of "buy_with_google", "buy_now" and "book_now" 
-         <p>Must be one of the following constant values.</p>
+        /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
 <colgroup align="left" />
@@ -94,12 +87,7 @@ containing a value of this type.
 </table>
          */
         public static final int buyButtonText=0x7f010017;
-        /** 
-             Width of the buy button. This includes an 8dp padding (4dp on each side) used for
-             pressed and focused states of the button. The value can be a specific width, e.g.
-             "300dp", or special values "match_parent" and "wrap_content".
-        
-         <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
@@ -158,8 +146,7 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int cameraZoom=0x7f010008;
-        /**  Google Wallet environment to use 
-         <p>Must be one of the following constant values.</p>
+        /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
 <colgroup align="left" />
@@ -171,8 +158,7 @@ containing a value of this type.
 </table>
          */
         public static final int environment=0x7f010012;
-        /**  Fragment mode 
-         <p>Must be one of the following constant values.</p>
+        /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
 <colgroup align="left" />
@@ -183,8 +169,7 @@ containing a value of this type.
 </table>
          */
         public static final int fragmentMode=0x7f010014;
-        /**  A style resource specifing attributes to customize the look and feel of WalletFragment 
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int fragmentStyle=0x7f010013;
@@ -202,32 +187,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
          */
         public static final int mapType=0x7f010003;
-        /**  Masked wallet details background 
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
         public static final int maskedWalletDetailsBackground=0x7f01001b;
-        /**  "Change" button background in masked wallet details view 
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
         public static final int maskedWalletDetailsButtonBackground=0x7f01001d;
-        /**  TextAppearance for the "Change" button in masked wallet details view 
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int maskedWalletDetailsButtonTextAppearance=0x7f01001c;
-        /**  TextAppearance for headers describing masked wallet details 
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int maskedWalletDetailsHeaderTextAppearance=0x7f01001a;
-        /**  Type of the wallet logo image in masked wallet details view 
-         <p>Must be one of the following constant values.</p>
+        /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
 <colgroup align="left" />
@@ -238,8 +218,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
          */
         public static final int maskedWalletDetailsLogoImageType=0x7f01001f;
-        /**  Color of the Google Wallet logo text in masked wallet details view 
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -248,23 +227,10 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int maskedWalletDetailsLogoTextColor=0x7f01001e;
-        /**  TextAppearance for masked wallet details 
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int maskedWalletDetailsTextAppearance=0x7f010019;
-        /**  Theme to be used for the Wallet selector 
-         <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>holo_dark</code></td><td>0</td><td></td></tr>
-<tr><td><code>holo_light</code></td><td>1</td><td></td></tr>
-</table>
-         */
-        public static final int theme=0x7f010011;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -371,41 +337,43 @@ containing a value of this type.
     public static final class drawable {
         public static final int bg=0x7f020000;
         public static final int blank=0x7f020001;
-        public static final int common_signin_btn_icon_dark=0x7f020002;
-        public static final int common_signin_btn_icon_disabled_dark=0x7f020003;
-        public static final int common_signin_btn_icon_disabled_focus_dark=0x7f020004;
-        public static final int common_signin_btn_icon_disabled_focus_light=0x7f020005;
-        public static final int common_signin_btn_icon_disabled_light=0x7f020006;
-        public static final int common_signin_btn_icon_focus_dark=0x7f020007;
-        public static final int common_signin_btn_icon_focus_light=0x7f020008;
-        public static final int common_signin_btn_icon_light=0x7f020009;
-        public static final int common_signin_btn_icon_normal_dark=0x7f02000a;
-        public static final int common_signin_btn_icon_normal_light=0x7f02000b;
-        public static final int common_signin_btn_icon_pressed_dark=0x7f02000c;
-        public static final int common_signin_btn_icon_pressed_light=0x7f02000d;
-        public static final int common_signin_btn_text_dark=0x7f02000e;
-        public static final int common_signin_btn_text_disabled_dark=0x7f02000f;
-        public static final int common_signin_btn_text_disabled_focus_dark=0x7f020010;
-        public static final int common_signin_btn_text_disabled_focus_light=0x7f020011;
-        public static final int common_signin_btn_text_disabled_light=0x7f020012;
-        public static final int common_signin_btn_text_focus_dark=0x7f020013;
-        public static final int common_signin_btn_text_focus_light=0x7f020014;
-        public static final int common_signin_btn_text_light=0x7f020015;
-        public static final int common_signin_btn_text_normal_dark=0x7f020016;
-        public static final int common_signin_btn_text_normal_light=0x7f020017;
-        public static final int common_signin_btn_text_pressed_dark=0x7f020018;
-        public static final int common_signin_btn_text_pressed_light=0x7f020019;
-        public static final int ic_plusone_medium_off_client=0x7f02001a;
-        public static final int ic_plusone_small_off_client=0x7f02001b;
-        public static final int ic_plusone_standard_off_client=0x7f02001c;
-        public static final int ic_plusone_tall_off_client=0x7f02001d;
-        public static final int icon=0x7f02001e;
-        public static final int o=0x7f02001f;
-        public static final int powered_by_google_dark=0x7f020020;
-        public static final int powered_by_google_light=0x7f020021;
-        public static final int scoreboard_bg=0x7f020022;
-        public static final int splash=0x7f020023;
-        public static final int x=0x7f020024;
+        public static final int common_full_open_on_phone=0x7f020002;
+        public static final int common_ic_googleplayservices=0x7f020003;
+        public static final int common_signin_btn_icon_dark=0x7f020004;
+        public static final int common_signin_btn_icon_disabled_dark=0x7f020005;
+        public static final int common_signin_btn_icon_disabled_focus_dark=0x7f020006;
+        public static final int common_signin_btn_icon_disabled_focus_light=0x7f020007;
+        public static final int common_signin_btn_icon_disabled_light=0x7f020008;
+        public static final int common_signin_btn_icon_focus_dark=0x7f020009;
+        public static final int common_signin_btn_icon_focus_light=0x7f02000a;
+        public static final int common_signin_btn_icon_light=0x7f02000b;
+        public static final int common_signin_btn_icon_normal_dark=0x7f02000c;
+        public static final int common_signin_btn_icon_normal_light=0x7f02000d;
+        public static final int common_signin_btn_icon_pressed_dark=0x7f02000e;
+        public static final int common_signin_btn_icon_pressed_light=0x7f02000f;
+        public static final int common_signin_btn_text_dark=0x7f020010;
+        public static final int common_signin_btn_text_disabled_dark=0x7f020011;
+        public static final int common_signin_btn_text_disabled_focus_dark=0x7f020012;
+        public static final int common_signin_btn_text_disabled_focus_light=0x7f020013;
+        public static final int common_signin_btn_text_disabled_light=0x7f020014;
+        public static final int common_signin_btn_text_focus_dark=0x7f020015;
+        public static final int common_signin_btn_text_focus_light=0x7f020016;
+        public static final int common_signin_btn_text_light=0x7f020017;
+        public static final int common_signin_btn_text_normal_dark=0x7f020018;
+        public static final int common_signin_btn_text_normal_light=0x7f020019;
+        public static final int common_signin_btn_text_pressed_dark=0x7f02001a;
+        public static final int common_signin_btn_text_pressed_light=0x7f02001b;
+        public static final int ic_plusone_medium_off_client=0x7f02001c;
+        public static final int ic_plusone_small_off_client=0x7f02001d;
+        public static final int ic_plusone_standard_off_client=0x7f02001e;
+        public static final int ic_plusone_tall_off_client=0x7f02001f;
+        public static final int icon=0x7f020020;
+        public static final int o=0x7f020021;
+        public static final int powered_by_google_dark=0x7f020022;
+        public static final int powered_by_google_light=0x7f020023;
+        public static final int scoreboard_bg=0x7f020024;
+        public static final int splash=0x7f020025;
+        public static final int x=0x7f020026;
     }
     public static final class id {
         public static final int action_settings=0x7f070048;
@@ -520,90 +488,92 @@ containing a value of this type.
         public static final int sampleaudio=0x7f050000;
     }
     public static final class string {
-        public static final int action_settings=0x7f0a0000;
-        public static final int app_name=0x7f0a0001;
-        public static final int audio=0x7f0a0002;
-        public static final int auth_client_needs_enabling_title=0x7f0a004e;
-        public static final int auth_client_needs_installation_title=0x7f0a004f;
-        public static final int auth_client_needs_update_title=0x7f0a0050;
-        public static final int auth_client_play_services_err_notification_msg=0x7f0a0051;
-        public static final int auth_client_requested_by_msg=0x7f0a0052;
-        public static final int auth_client_using_bad_version_title=0x7f0a0053;
-        public static final int cancel=0x7f0a0003;
-        public static final int clear=0x7f0a0004;
-        public static final int common_google_play_services_enable_button=0x7f0a0005;
-        public static final int common_google_play_services_enable_text=0x7f0a0006;
-        public static final int common_google_play_services_enable_title=0x7f0a0007;
-        public static final int common_google_play_services_error_notification_requested_by_msg=0x7f0a0008;
-        public static final int common_google_play_services_install_button=0x7f0a0009;
-        public static final int common_google_play_services_install_text_phone=0x7f0a000a;
-        public static final int common_google_play_services_install_text_tablet=0x7f0a000b;
-        public static final int common_google_play_services_install_title=0x7f0a000c;
-        public static final int common_google_play_services_invalid_account_text=0x7f0a000d;
-        public static final int common_google_play_services_invalid_account_title=0x7f0a000e;
-        public static final int common_google_play_services_needs_enabling_title=0x7f0a000f;
-        public static final int common_google_play_services_network_error_text=0x7f0a0010;
-        public static final int common_google_play_services_network_error_title=0x7f0a0011;
-        public static final int common_google_play_services_notification_needs_installation_title=0x7f0a0012;
-        public static final int common_google_play_services_notification_needs_update_title=0x7f0a0013;
-        public static final int common_google_play_services_notification_ticker=0x7f0a0014;
-        public static final int common_google_play_services_unknown_issue=0x7f0a0015;
-        public static final int common_google_play_services_unsupported_date_text=0x7f0a0016;
-        public static final int common_google_play_services_unsupported_text=0x7f0a0017;
-        public static final int common_google_play_services_unsupported_title=0x7f0a0018;
-        public static final int common_google_play_services_update_button=0x7f0a0019;
-        public static final int common_google_play_services_update_text=0x7f0a001a;
-        public static final int common_google_play_services_update_title=0x7f0a001b;
-        public static final int common_signin_button_text=0x7f0a001c;
-        public static final int common_signin_button_text_long=0x7f0a001d;
-        public static final int confirm_password=0x7f0a001e;
-        public static final int create=0x7f0a001f;
-        public static final int create_new_account=0x7f0a0020;
-        public static final int done=0x7f0a0021;
-        public static final int enter_address_=0x7f0a0022;
-        public static final int enter_password=0x7f0a0023;
-        public static final int enter_username=0x7f0a0024;
-        public static final int exit=0x7f0a0025;
-        public static final int exit_help=0x7f0a0026;
-        public static final int find=0x7f0a0027;
-        public static final int findme=0x7f0a0028;
-        public static final int hello=0x7f0a0029;
-        public static final int hello_world=0x7f0a002a;
-        public static final int help=0x7f0a002b;
-        public static final int help_text=0x7f0a002c;
-        public static final int help_title=0x7f0a002d;
-        public static final int id=0x7f0a002e;
-        public static final int images=0x7f0a002f;
-        public static final int locate_me=0x7f0a0030;
-        public static final int login=0x7f0a0031;
-        public static final int login_title=0x7f0a0032;
-        public static final int main_title=0x7f0a0033;
-        public static final int new_account=0x7f0a0034;
-        public static final int new_game=0x7f0a0035;
-        public static final int new_user=0x7f0a0036;
-        public static final int options=0x7f0a0037;
-        public static final int password=0x7f0a0038;
-        public static final int permission_launch_activity=0x7f0a0039;
-        public static final int pre_release_do_not_ship=0x7f0a003a;
-        public static final int record_audio=0x7f0a003b;
-        public static final int record_video=0x7f0a003c;
-        public static final int sensors=0x7f0a003d;
-        public static final int settings=0x7f0a003e;
-        public static final int settings_label=0x7f0a003f;
-        public static final int show_image=0x7f0a0040;
-        public static final int start_audio=0x7f0a0041;
-        public static final int start_video=0x7f0a0042;
-        public static final int stop_audio=0x7f0a0043;
-        public static final int stop_video=0x7f0a0044;
-        public static final int take_picture=0x7f0a0045;
-        public static final int tic_tac_toe_on_wikipedia=0x7f0a0046;
-        public static final int tic_tac_toe_on_wikipedia_in_web_view=0x7f0a0047;
-        public static final int title=0x7f0a0048;
-        public static final int title_activity_dummy=0x7f0a0049;
-        public static final int username=0x7f0a004a;
-        public static final int video=0x7f0a004b;
-        public static final int wallet_buy_button_place_holder=0x7f0a004c;
-        public static final int where_am_i_=0x7f0a004d;
+        public static final int accept=0x7f0a0000;
+        public static final int action_settings=0x7f0a0001;
+        public static final int app_name=0x7f0a0002;
+        public static final int audio=0x7f0a0003;
+        public static final int cancel=0x7f0a0004;
+        public static final int clear=0x7f0a0005;
+        public static final int common_android_wear_notification_needs_update_text=0x7f0a0006;
+        public static final int common_android_wear_update_text=0x7f0a0007;
+        public static final int common_android_wear_update_title=0x7f0a0008;
+        public static final int common_google_play_services_enable_button=0x7f0a0009;
+        public static final int common_google_play_services_enable_text=0x7f0a000a;
+        public static final int common_google_play_services_enable_title=0x7f0a000b;
+        public static final int common_google_play_services_error_notification_requested_by_msg=0x7f0a000c;
+        public static final int common_google_play_services_install_button=0x7f0a000d;
+        public static final int common_google_play_services_install_text_phone=0x7f0a000e;
+        public static final int common_google_play_services_install_text_tablet=0x7f0a000f;
+        public static final int common_google_play_services_install_title=0x7f0a0010;
+        public static final int common_google_play_services_invalid_account_text=0x7f0a0011;
+        public static final int common_google_play_services_invalid_account_title=0x7f0a0012;
+        public static final int common_google_play_services_needs_enabling_title=0x7f0a0013;
+        public static final int common_google_play_services_network_error_text=0x7f0a0014;
+        public static final int common_google_play_services_network_error_title=0x7f0a0015;
+        public static final int common_google_play_services_notification_needs_installation_title=0x7f0a0016;
+        public static final int common_google_play_services_notification_needs_update_title=0x7f0a0017;
+        public static final int common_google_play_services_notification_ticker=0x7f0a0018;
+        public static final int common_google_play_services_unknown_issue=0x7f0a0019;
+        public static final int common_google_play_services_unsupported_text=0x7f0a001a;
+        public static final int common_google_play_services_unsupported_title=0x7f0a001b;
+        public static final int common_google_play_services_update_button=0x7f0a001c;
+        public static final int common_google_play_services_update_text=0x7f0a001d;
+        public static final int common_google_play_services_update_title=0x7f0a001e;
+        public static final int common_open_on_phone=0x7f0a001f;
+        public static final int common_signin_button_text=0x7f0a0020;
+        public static final int common_signin_button_text_long=0x7f0a0021;
+        public static final int confirm_password=0x7f0a0022;
+        public static final int create=0x7f0a0023;
+        public static final int create_calendar_message=0x7f0a0024;
+        public static final int create_calendar_title=0x7f0a0025;
+        public static final int create_new_account=0x7f0a0026;
+        public static final int decline=0x7f0a0027;
+        public static final int done=0x7f0a0028;
+        public static final int enter_address_=0x7f0a0029;
+        public static final int enter_password=0x7f0a002a;
+        public static final int enter_username=0x7f0a002b;
+        public static final int exit=0x7f0a002c;
+        public static final int exit_help=0x7f0a002d;
+        public static final int find=0x7f0a002e;
+        public static final int findme=0x7f0a002f;
+        public static final int hello=0x7f0a0030;
+        public static final int hello_world=0x7f0a0031;
+        public static final int help=0x7f0a0032;
+        public static final int help_text=0x7f0a0033;
+        public static final int help_title=0x7f0a0034;
+        public static final int id=0x7f0a0035;
+        public static final int images=0x7f0a0036;
+        public static final int locate_me=0x7f0a0037;
+        public static final int login=0x7f0a0038;
+        public static final int login_title=0x7f0a0039;
+        public static final int main_title=0x7f0a003a;
+        public static final int new_account=0x7f0a003b;
+        public static final int new_game=0x7f0a003c;
+        public static final int new_user=0x7f0a003d;
+        public static final int options=0x7f0a003e;
+        public static final int password=0x7f0a003f;
+        public static final int permission_launch_activity=0x7f0a0040;
+        public static final int record_audio=0x7f0a0041;
+        public static final int record_video=0x7f0a0042;
+        public static final int sensors=0x7f0a0043;
+        public static final int settings=0x7f0a0044;
+        public static final int settings_label=0x7f0a0045;
+        public static final int show_image=0x7f0a0046;
+        public static final int start_audio=0x7f0a0047;
+        public static final int start_video=0x7f0a0048;
+        public static final int stop_audio=0x7f0a0049;
+        public static final int stop_video=0x7f0a004a;
+        public static final int store_picture_message=0x7f0a004b;
+        public static final int store_picture_title=0x7f0a004c;
+        public static final int take_picture=0x7f0a004d;
+        public static final int tic_tac_toe_on_wikipedia=0x7f0a004e;
+        public static final int tic_tac_toe_on_wikipedia_in_web_view=0x7f0a004f;
+        public static final int title=0x7f0a0050;
+        public static final int title_activity_dummy=0x7f0a0051;
+        public static final int username=0x7f0a0052;
+        public static final int video=0x7f0a0053;
+        public static final int wallet_buy_button_place_holder=0x7f0a0054;
+        public static final int where_am_i_=0x7f0a0055;
     }
     public static final class style {
         public static final int Theme_IAPTheme=0x7f0b0000;
@@ -622,11 +592,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AdsAttrs_adSize com.wiley.fordummies.androidsdk.tictactoe:adSize}</code></td><td>
-    The size of the ad.</td></tr>
-           <tr><td><code>{@link #AdsAttrs_adSizes com.wiley.fordummies.androidsdk.tictactoe:adSizes}</code></td><td>
-    A comma-separated list of the supported ad sizes.</td></tr>
-           <tr><td><code>{@link #AdsAttrs_adUnitId com.wiley.fordummies.androidsdk.tictactoe:adUnitId}</code></td><td> The ad unit ID.</td></tr>
+           <tr><td><code>{@link #AdsAttrs_adSize com.wiley.fordummies.androidsdk.tictactoe:adSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adSizes com.wiley.fordummies.androidsdk.tictactoe:adSizes}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adUnitId com.wiley.fordummies.androidsdk.tictactoe:adUnitId}</code></td><td></td></tr>
            </table>
            @see #AdsAttrs_adSize
            @see #AdsAttrs_adSizes
@@ -636,13 +604,8 @@ containing a value of this type.
             0x7f010000, 0x7f010001, 0x7f010002
         };
         /**
-          <p>
-          @attr description
-          
-    The size of the ad. It must be one of BANNER, FULL_BANNER, LEADERBOARD,
-    MEDIUM_RECTANGLE, SMART_BANNER, WIDE_SKYSCRAPER, or
-    &lt;width&gt;x&lt;height&gt;.
-        
+          <p>This symbol is the offset where the {@link com.wiley.fordummies.androidsdk.tictactoe.R.attr#adSize}
+          attribute's value can be found in the {@link #AdsAttrs} array.
 
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
@@ -651,18 +614,12 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          <p>This is a private symbol.
           @attr name com.wiley.fordummies.androidsdk.tictactoe:adSize
         */
         public static final int AdsAttrs_adSize = 0;
         /**
-          <p>
-          @attr description
-          
-    A comma-separated list of the supported ad sizes. The sizes must be one of
-    BANNER, FULL_BANNER, LEADERBOARD, MEDIUM_RECTANGLE, SMART_BANNER,
-    WIDE_SKYSCRAPER, or &lt;width&gt;x&lt;height&gt;.
-        
+          <p>This symbol is the offset where the {@link com.wiley.fordummies.androidsdk.tictactoe.R.attr#adSizes}
+          attribute's value can be found in the {@link #AdsAttrs} array.
 
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
@@ -671,14 +628,12 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          <p>This is a private symbol.
           @attr name com.wiley.fordummies.androidsdk.tictactoe:adSizes
         */
         public static final int AdsAttrs_adSizes = 1;
         /**
-          <p>
-          @attr description
-           The ad unit ID. 
+          <p>This symbol is the offset where the {@link com.wiley.fordummies.androidsdk.tictactoe.R.attr#adUnitId}
+          attribute's value can be found in the {@link #AdsAttrs} array.
 
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
@@ -687,7 +642,6 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          <p>This is a private symbol.
           @attr name com.wiley.fordummies.androidsdk.tictactoe:adUnitId
         */
         public static final int AdsAttrs_adUnitId = 2;
@@ -941,23 +895,39 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_environment com.wiley.fordummies.androidsdk.tictactoe:environment}</code></td><td> Google Wallet environment to use </td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_fragmentMode com.wiley.fordummies.androidsdk.tictactoe:fragmentMode}</code></td><td> Fragment mode </td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_fragmentStyle com.wiley.fordummies.androidsdk.tictactoe:fragmentStyle}</code></td><td> A style resource specifing attributes to customize the look and feel of WalletFragment </td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_theme com.wiley.fordummies.androidsdk.tictactoe:theme}</code></td><td> Theme to be used for the Wallet selector </td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_appTheme com.wiley.fordummies.androidsdk.tictactoe:appTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_environment com.wiley.fordummies.androidsdk.tictactoe:environment}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_fragmentMode com.wiley.fordummies.androidsdk.tictactoe:fragmentMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_fragmentStyle com.wiley.fordummies.androidsdk.tictactoe:fragmentStyle}</code></td><td></td></tr>
            </table>
+           @see #WalletFragmentOptions_appTheme
            @see #WalletFragmentOptions_environment
            @see #WalletFragmentOptions_fragmentMode
            @see #WalletFragmentOptions_fragmentStyle
-           @see #WalletFragmentOptions_theme
          */
         public static final int[] WalletFragmentOptions = {
             0x7f010011, 0x7f010012, 0x7f010013, 0x7f010014
         };
         /**
-          <p>
-          @attr description
-           Google Wallet environment to use 
+          <p>This symbol is the offset where the {@link com.wiley.fordummies.androidsdk.tictactoe.R.attr#appTheme}
+          attribute's value can be found in the {@link #WalletFragmentOptions} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>holo_dark</code></td><td>0</td><td></td></tr>
+<tr><td><code>holo_light</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name com.wiley.fordummies.androidsdk.tictactoe:appTheme
+        */
+        public static final int WalletFragmentOptions_appTheme = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.wiley.fordummies.androidsdk.tictactoe.R.attr#environment}
+          attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
           <p>Must be one of the following constant values.</p>
@@ -970,14 +940,12 @@ containing a value of this type.
 <tr><td><code>sandbox</code></td><td>0</td><td></td></tr>
 <tr><td><code>strict_sandbox</code></td><td>2</td><td></td></tr>
 </table>
-          <p>This is a private symbol.
           @attr name com.wiley.fordummies.androidsdk.tictactoe:environment
         */
         public static final int WalletFragmentOptions_environment = 1;
         /**
-          <p>
-          @attr description
-           Fragment mode 
+          <p>This symbol is the offset where the {@link com.wiley.fordummies.androidsdk.tictactoe.R.attr#fragmentMode}
+          attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
           <p>Must be one of the following constant values.</p>
@@ -989,60 +957,36 @@ containing a value of this type.
 <tr><td><code>buyButton</code></td><td>1</td><td></td></tr>
 <tr><td><code>selectionDetails</code></td><td>2</td><td></td></tr>
 </table>
-          <p>This is a private symbol.
           @attr name com.wiley.fordummies.androidsdk.tictactoe:fragmentMode
         */
         public static final int WalletFragmentOptions_fragmentMode = 3;
         /**
-          <p>
-          @attr description
-           A style resource specifing attributes to customize the look and feel of WalletFragment 
+          <p>This symbol is the offset where the {@link com.wiley.fordummies.androidsdk.tictactoe.R.attr#fragmentStyle}
+          attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
           @attr name com.wiley.fordummies.androidsdk.tictactoe:fragmentStyle
         */
         public static final int WalletFragmentOptions_fragmentStyle = 2;
-        /**
-          <p>
-          @attr description
-           Theme to be used for the Wallet selector 
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>holo_dark</code></td><td>0</td><td></td></tr>
-<tr><td><code>holo_light</code></td><td>1</td><td></td></tr>
-</table>
-          <p>This is a private symbol.
-          @attr name com.wiley.fordummies.androidsdk.tictactoe:theme
-        */
-        public static final int WalletFragmentOptions_theme = 0;
         /** Attributes that can be used with a WalletFragmentStyle.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonAppearance com.wiley.fordummies.androidsdk.tictactoe:buyButtonAppearance}</code></td><td> Appearance of the buy button.</td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonHeight com.wiley.fordummies.androidsdk.tictactoe:buyButtonHeight}</code></td><td>
-             Height of the buy button.</td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonText com.wiley.fordummies.androidsdk.tictactoe:buyButtonText}</code></td><td> Text on the buy button.</td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonWidth com.wiley.fordummies.androidsdk.tictactoe:buyButtonWidth}</code></td><td>
-             Width of the buy button.</td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsBackground com.wiley.fordummies.androidsdk.tictactoe:maskedWalletDetailsBackground}</code></td><td> Masked wallet details background </td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonBackground com.wiley.fordummies.androidsdk.tictactoe:maskedWalletDetailsButtonBackground}</code></td><td> "Change" button background in masked wallet details view </td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance com.wiley.fordummies.androidsdk.tictactoe:maskedWalletDetailsButtonTextAppearance}</code></td><td> TextAppearance for the "Change" button in masked wallet details view </td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance com.wiley.fordummies.androidsdk.tictactoe:maskedWalletDetailsHeaderTextAppearance}</code></td><td> TextAppearance for headers describing masked wallet details </td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoImageType com.wiley.fordummies.androidsdk.tictactoe:maskedWalletDetailsLogoImageType}</code></td><td> Type of the wallet logo image in masked wallet details view </td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoTextColor com.wiley.fordummies.androidsdk.tictactoe:maskedWalletDetailsLogoTextColor}</code></td><td> Color of the Google Wallet logo text in masked wallet details view </td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsTextAppearance com.wiley.fordummies.androidsdk.tictactoe:maskedWalletDetailsTextAppearance}</code></td><td> TextAppearance for masked wallet details </td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonAppearance com.wiley.fordummies.androidsdk.tictactoe:buyButtonAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonHeight com.wiley.fordummies.androidsdk.tictactoe:buyButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonText com.wiley.fordummies.androidsdk.tictactoe:buyButtonText}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonWidth com.wiley.fordummies.androidsdk.tictactoe:buyButtonWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsBackground com.wiley.fordummies.androidsdk.tictactoe:maskedWalletDetailsBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonBackground com.wiley.fordummies.androidsdk.tictactoe:maskedWalletDetailsButtonBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance com.wiley.fordummies.androidsdk.tictactoe:maskedWalletDetailsButtonTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance com.wiley.fordummies.androidsdk.tictactoe:maskedWalletDetailsHeaderTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoImageType com.wiley.fordummies.androidsdk.tictactoe:maskedWalletDetailsLogoImageType}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoTextColor com.wiley.fordummies.androidsdk.tictactoe:maskedWalletDetailsLogoTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsTextAppearance com.wiley.fordummies.androidsdk.tictactoe:maskedWalletDetailsTextAppearance}</code></td><td></td></tr>
            </table>
            @see #WalletFragmentStyle_buyButtonAppearance
            @see #WalletFragmentStyle_buyButtonHeight
@@ -1062,9 +1006,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01001d, 0x7f01001e, 0x7f01001f
         };
         /**
-          <p>
-          @attr description
-           Appearance of the buy button. Must be one of "classic", "grayscale" and "monochrome" 
+          <p>This symbol is the offset where the {@link com.wiley.fordummies.androidsdk.tictactoe.R.attr#buyButtonAppearance}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be one of the following constant values.</p>
@@ -1077,18 +1020,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>grayscale</code></td><td>2</td><td></td></tr>
 <tr><td><code>monochrome</code></td><td>3</td><td></td></tr>
 </table>
-          <p>This is a private symbol.
           @attr name com.wiley.fordummies.androidsdk.tictactoe:buyButtonAppearance
         */
         public static final int WalletFragmentStyle_buyButtonAppearance = 3;
         /**
-          <p>
-          @attr description
-          
-             Height of the buy button. This includes an 8dp padding (4dp on each side) used for
-             pressed and focused states of the button. The value can be a specific height, e.g.
-             "48dp", or special values "match_parent" and "wrap_content".
-        
+          <p>This symbol is the offset where the {@link com.wiley.fordummies.androidsdk.tictactoe.R.attr#buyButtonHeight}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
@@ -1108,14 +1045,12 @@ containing a value of this type.
 <tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
 <tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
 </table>
-          <p>This is a private symbol.
           @attr name com.wiley.fordummies.androidsdk.tictactoe:buyButtonHeight
         */
         public static final int WalletFragmentStyle_buyButtonHeight = 0;
         /**
-          <p>
-          @attr description
-           Text on the buy button. Must be one of "buy_with_google", "buy_now" and "book_now" 
+          <p>This symbol is the offset where the {@link com.wiley.fordummies.androidsdk.tictactoe.R.attr#buyButtonText}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be one of the following constant values.</p>
@@ -1128,18 +1063,12 @@ containing a value of this type.
 <tr><td><code>buy_now</code></td><td>2</td><td></td></tr>
 <tr><td><code>book_now</code></td><td>3</td><td></td></tr>
 </table>
-          <p>This is a private symbol.
           @attr name com.wiley.fordummies.androidsdk.tictactoe:buyButtonText
         */
         public static final int WalletFragmentStyle_buyButtonText = 2;
         /**
-          <p>
-          @attr description
-          
-             Width of the buy button. This includes an 8dp padding (4dp on each side) used for
-             pressed and focused states of the button. The value can be a specific width, e.g.
-             "300dp", or special values "match_parent" and "wrap_content".
-        
+          <p>This symbol is the offset where the {@link com.wiley.fordummies.androidsdk.tictactoe.R.attr#buyButtonWidth}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
@@ -1159,66 +1088,56 @@ containing a value of this type.
 <tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
 <tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
 </table>
-          <p>This is a private symbol.
           @attr name com.wiley.fordummies.androidsdk.tictactoe:buyButtonWidth
         */
         public static final int WalletFragmentStyle_buyButtonWidth = 1;
         /**
-          <p>
-          @attr description
-           Masked wallet details background 
+          <p>This symbol is the offset where the {@link com.wiley.fordummies.androidsdk.tictactoe.R.attr#maskedWalletDetailsBackground}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          <p>This is a private symbol.
           @attr name com.wiley.fordummies.androidsdk.tictactoe:maskedWalletDetailsBackground
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsBackground = 6;
         /**
-          <p>
-          @attr description
-           "Change" button background in masked wallet details view 
+          <p>This symbol is the offset where the {@link com.wiley.fordummies.androidsdk.tictactoe.R.attr#maskedWalletDetailsButtonBackground}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          <p>This is a private symbol.
           @attr name com.wiley.fordummies.androidsdk.tictactoe:maskedWalletDetailsButtonBackground
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsButtonBackground = 8;
         /**
-          <p>
-          @attr description
-           TextAppearance for the "Change" button in masked wallet details view 
+          <p>This symbol is the offset where the {@link com.wiley.fordummies.androidsdk.tictactoe.R.attr#maskedWalletDetailsButtonTextAppearance}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
           @attr name com.wiley.fordummies.androidsdk.tictactoe:maskedWalletDetailsButtonTextAppearance
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance = 7;
         /**
-          <p>
-          @attr description
-           TextAppearance for headers describing masked wallet details 
+          <p>This symbol is the offset where the {@link com.wiley.fordummies.androidsdk.tictactoe.R.attr#maskedWalletDetailsHeaderTextAppearance}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
           @attr name com.wiley.fordummies.androidsdk.tictactoe:maskedWalletDetailsHeaderTextAppearance
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance = 5;
         /**
-          <p>
-          @attr description
-           Type of the wallet logo image in masked wallet details view 
+          <p>This symbol is the offset where the {@link com.wiley.fordummies.androidsdk.tictactoe.R.attr#maskedWalletDetailsLogoImageType}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be one of the following constant values.</p>
@@ -1230,14 +1149,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>classic</code></td><td>1</td><td></td></tr>
 <tr><td><code>monochrome</code></td><td>2</td><td></td></tr>
 </table>
-          <p>This is a private symbol.
           @attr name com.wiley.fordummies.androidsdk.tictactoe:maskedWalletDetailsLogoImageType
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsLogoImageType = 10;
         /**
-          <p>
-          @attr description
-           Color of the Google Wallet logo text in masked wallet details view 
+          <p>This symbol is the offset where the {@link com.wiley.fordummies.androidsdk.tictactoe.R.attr#maskedWalletDetailsLogoTextColor}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
@@ -1247,19 +1164,16 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          <p>This is a private symbol.
           @attr name com.wiley.fordummies.androidsdk.tictactoe:maskedWalletDetailsLogoTextColor
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsLogoTextColor = 9;
         /**
-          <p>
-          @attr description
-           TextAppearance for masked wallet details 
+          <p>This symbol is the offset where the {@link com.wiley.fordummies.androidsdk.tictactoe.R.attr#maskedWalletDetailsTextAppearance}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
           @attr name com.wiley.fordummies.androidsdk.tictactoe:maskedWalletDetailsTextAppearance
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsTextAppearance = 4;
